@@ -19,6 +19,7 @@ filetype plugin indent on
 set number
 nnoremap <leader>r :set relativenumber!<CR>
 
+
 set shiftwidth=2
 set autoindent
 set expandtab
