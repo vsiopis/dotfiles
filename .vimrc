@@ -23,6 +23,7 @@ set shiftwidth=2
 set autoindent
 set expandtab
 set smarttab
+set clipboard=unnamedplus
 
 nnoremap <leader>h :set hlsearch! hlsearch?<CR>
 nnoremap <leader>l :set list!<CR>
