@@ -9,10 +9,13 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'alvan/vim-closetag'
 Plug 'jpo/vim-railscasts-theme'
 Plug 'Yggdroot/indentLine'
+Plug 'altercation/vim-colors-solarized'
+Plug 'Lokaltog/vim-distinguished'
+Plug 'vim-airline/vim-airline'
 
 call plug#end()
 
-colorscheme railscasts
+colorscheme distinguished
 
 syntax enable
 filetype plugin indent on
