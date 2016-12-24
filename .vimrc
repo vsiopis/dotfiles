@@ -6,7 +6,6 @@ Plug 'tpope/vim-surround'
 Plug 'morhetz/gruvbox'
 Plug 'nanotech/jellybeans.vim'
 Plug 'vim-ruby/vim-ruby'
-Plug 'alvan/vim-closetag'
 Plug 'jpo/vim-railscasts-theme'
 Plug 'Yggdroot/indentLine'
 Plug 'altercation/vim-colors-solarized'
@@ -14,7 +13,6 @@ Plug 'Lokaltog/vim-distinguished'
 Plug 'vim-airline/vim-airline'
 Plug 'tomasr/molokai'
 Plug 'nikvdp/ejs-syntax'
-Plug 'tpope/vim-endwise'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'jiangmiao/auto-pairs'
@@ -22,7 +20,6 @@ Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 colorscheme distinguished
-"colorscheme molokai
 
 syntax enable
 filetype plugin indent on
@@ -37,6 +34,10 @@ set clipboard=unnamedplus
 
 nnoremap <leader>h :set hlsearch! hlsearch?<CR>
 nnoremap <leader>l :set list!<CR>
+
+
+"Delete the next char
+:nmap <leader>x lxh
 
 "Define new Directories for my own snippets
 let g:UltiSnipsSnippetDirectories=["UltiSnips", "mysnippets"]
