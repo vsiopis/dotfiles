@@ -13,8 +13,10 @@ alias r="cd \/"
 alias gst='git status'
 alias u='sudo pacman -Syu'
 alias o='gnome-open'
+alias e='exit'
 
-PS1='\e[1;32m[\W]\e[1;37m\$ \e[0;37m'
+PS1="\[\033[38;5;244m\][\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;46m\]\w\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;244m\]]\[$(tput sgr0)\]\[\033[38;5;15m\]\n\[$(tput sgr0)\]\[\033[38;5;255m\]\\$\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
+
 BROWSER=/usr/bin/google-chrome-stable
 EDITOR=/usr/bin/vim
 
