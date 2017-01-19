@@ -8,7 +8,6 @@
 alias ls='ls --color=auto'
 alias ..="cd .."
 alias ...="cd ../.."
-alias c=clear
 alias r="cd \/"
 alias gst='git status'
 alias u='sudo pacman -Syu'
@@ -38,3 +37,5 @@ function cd {
 if [ -f ~/.last_dir ]
     then cd `cat ~/.last_dir`
 fi
+
+stty -ixon
