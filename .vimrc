@@ -4,7 +4,6 @@ Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-vinegar'
 Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
-"Plug 'Yggdroot/indentLine'
 Plug 'vim-airline/vim-airline'
 Plug 'nikvdp/ejs-syntax'
 Plug 'SirVer/ultisnips'
@@ -12,15 +11,19 @@ Plug 'honza/vim-snippets'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'duggiefresh/vim-easydir'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'slim-template/vim-slim'
+Plug 'rhysd/conflict-marker.vim'
+Plug 'vim-syntastic/syntastic'
+Plug 'schickling/vim-bufonly'
 
+" Colorschemes
 Plug 'morhetz/gruvbox'
 Plug 'tomasr/molokai'
 Plug 'nanotech/jellybeans.vim'
 Plug 'altercation/vim-colors-solarized'
 Plug 'Lokaltog/vim-distinguished'
 Plug 'jpo/vim-railscasts-theme'
-Plug 'schickling/vim-bufonly'
-
 
 call plug#end()
 
